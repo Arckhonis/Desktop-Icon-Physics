@@ -14,7 +14,8 @@ It supports two modes that can be swithced by pressing Virtual Key 1 or 2:
 # Compilation Quircks
 
 To compile C DLL I used MinGW compiler with this command:
-`gcc -shared -o Movement API.dll "Movement API.c" -lole32 -loleaut32 -luuid -mwindows -m32 -std=c90`
+
+`gcc -shared -o "Movement API.dll" "Movement API.c" -lole32 -loleaut32 -luuid -mwindows -m32 -std=c90`
 (Note C90 stuff :\)
 
 [![Showcase Video](https://img.youtube.com/vi/Un_MgcClTrc/0.jpg)](https://youtu.be/Un_MgcClTrc)
